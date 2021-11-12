@@ -5,7 +5,7 @@ import time
 
 START_URL = "https://en.wikipedia.org/wiki/List_of_brightest_stars_and_other_record_stars"
 
-browser = webdriver.Chrome("C:/Users/TRUSTANA MARKETING/Downloads/chromedriver_win32.zip")
+browser = webdriver.Chrome("C:/Users/TRUSTANA MARKETING/Downloads/chromedriver_win32/chromedriver.exe")
 browser.get(START_URL)
 
 time.sleep(20)
